@@ -22,7 +22,7 @@ export default function Home() {
             con Lerni
           </p>
           <Countdown
-            limitDate={new Date("2025-02-30").getTime()}
+            limitDate={new Date("2025-02-03").getTime()}
             width="85vh"
           />
         </div>
