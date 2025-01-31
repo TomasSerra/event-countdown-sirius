@@ -1,0 +1,23 @@
+@use "@/styles/variables" as *;
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-400;
+  color: $neutral-white;
+  border-radius: 16px;
+  padding: 16px 8px;
+  width: 23%;
+  height: 170px;
+
+  .value {
+    font-size: $font-size-large;
+    font-weight: bold;
+  }
+
+  .label {
+    font-size: $font-size-small;
+  }
+}
