@@ -30,7 +30,7 @@ export default function Home() {
             con Lerni
           </p>
           <Countdown
-            limitDate={new Date("2025-02-02T10:00:00-03:00").getTime()}
+            limitDate={new Date("2025-02-03T11:00:00-03:00").getTime()}
             width="85vh"
             onFinish={() => {
               setShowConfetti(true);
